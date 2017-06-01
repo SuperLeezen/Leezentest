@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name         = "Leezentest"
   s.version      = "1.0.0"
-  s.summary      = "It’s test code."
+  s.summary      = "This is a test code."
   s.homepage     = "https://github.com/SuperLeezen/Leezentest.git"
   s.license      = "MIT"
   s.author             = { "leezen" => "emailoflizheng@126.com" }
