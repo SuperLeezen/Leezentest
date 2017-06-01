@@ -8,12 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name         = "Leezentest"
-  s.version      = “1.0.0”
-  s.summary      = “It’s test code.”
+  s.version      = "1.0.0"
+  s.summary      = "It’s test code."
   s.homepage     = "https://github.com/SuperLeezen/Leezentest.git"
   s.license      = "MIT"
-  s.author             = { “leezen” => "emailoflizheng@126.com" }
+  s.author             = { "leezen" => "emailoflizheng@126.com" }
   s.source       = { :git => "https://github.com/SuperLeezen/Leezentest.git", :tag => "#{s.version}" }
   s.source_files  = "Leezentest", "Leezentest/*.{h,m}"
   s.requires_arc = true
+  s.platform         = :ios, '7.0'
 end
